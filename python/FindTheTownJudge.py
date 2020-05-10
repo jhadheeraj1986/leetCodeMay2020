@@ -84,7 +84,7 @@ def findJudge1( N, trust):
 
     return -1
 
-#Solution 2(Faster than 1)
+#Solution 2
 def findJudge2(self, N: int, trust: List[List[int]]) -> int:
         society_level = [0 for i in range(N)]
         suspicion_level = [0 for i in range(N)]
